@@ -6,6 +6,6 @@ public class WelcomeToJava {
         System.out.println("I already know how to build programming logic.");
         System.out.println("Now I am learning how to express that logic using java.");
         System.out.println("My name is mahesh babu.");
-        System.out.println("I goal is to become a java developer.");
+        System.out.println("MY goal is to become a java developer.");
     }
 }
