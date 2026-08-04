@@ -2,12 +2,13 @@
 class Main {
 
     public static void main(String[] args) {
-        System.out.println("Monday");
-        System.out.println("Tuesday");
-        System.out.println("Wednesday");
-        System.out.println("Thursday");
-        System.out.println("Friday");
-        System.out.println("Saturday ");
-        System.out.println("Sunday");
+        int num = 25;
+        if (num > 0) {
+            System.out.println("Positive");
+        } else if (num < 0) {
+            System.out.println("Negative");
+        } else if (num == 0) {
+            System.out.println("Zero");
+        }
     }
 }
