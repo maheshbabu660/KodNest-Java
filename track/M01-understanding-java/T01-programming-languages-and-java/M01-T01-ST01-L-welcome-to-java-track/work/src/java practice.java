@@ -24,8 +24,10 @@ class Main {
         // Compare scores and display the larger score
         if (firstScore > secondScore) {
             System.out.println("Larger score: " + firstScore);
-        } else {
+        } else if (secondScore > firstScore) {
             System.out.println("Larger score: " + secondScore);
+        } else {
+            System.out.println("Both scores are equal: " + firstScore);
         }
     }
 }

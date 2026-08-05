@@ -1,11 +1,11 @@
 class Main {
 
     public static void main(String[] args) {
-        int number = -345;
+        int number = -7;
         int firstScore = 18;
         int secondScore = 25;
 
-        // Check if number is Positive, Negative, or Zero
+        // Check number sign (Positive, Negative, or Zero)
         if (number > 0) {
             System.out.println("Number type: Positive");
         } else if (number < 0) {
@@ -21,13 +21,11 @@ class Main {
             System.out.println("Parity: Odd");
         }
 
-        // Compare scores and display the larger score
+        // Compare scores
         if (firstScore > secondScore) {
             System.out.println("Larger score: " + firstScore);
-        } else if (secondScore > firstScore) {
-            System.out.println("Larger score: " + secondScore);
         } else {
-            System.out.println("Both scores are equal: " + firstScore);
+            System.out.println("Larger score: " + secondScore);
         }
     }
 }
