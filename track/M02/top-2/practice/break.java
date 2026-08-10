@@ -1,5 +1,5 @@
 
-public class breakpgm {
+class breakpgm {
 
     public static void main(String[] args) {
 

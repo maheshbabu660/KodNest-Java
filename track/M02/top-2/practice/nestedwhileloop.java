@@ -1,5 +1,5 @@
 
-public class nestedforloop {
+public class nestedwhileloop {
 
     public static void main(String[] args) {
 

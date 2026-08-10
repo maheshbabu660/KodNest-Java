@@ -1,5 +1,5 @@
 
-public class continuepgm {
+class continuepgm {
 
     public static void main(String[] args) {
 

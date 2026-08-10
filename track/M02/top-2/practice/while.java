@@ -1,5 +1,5 @@
 
-public class whilepgm {
+class whilepgm {
 
     public static void main(String[] args) {
         int i = 1;
