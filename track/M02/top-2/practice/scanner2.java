@@ -15,8 +15,8 @@ public class scanner2 {
 
         scan.nextLine();
         System.out.println("Enter your full name: ");
-        String fullname = scan.nextLine();
-        System.out.println("Full name: " + fullname);
+        String fullName = scan.nextLine();
+        System.out.println("Full name: " + fullName);
 
     }
 }
