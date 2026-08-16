@@ -1,5 +1,5 @@
 
-class Student {
+class Student7 {
 
     int id;
     String name;
@@ -21,7 +21,7 @@ class Student {
 public class studentprgm7 {
 
     public static void main(String[] args) {
-        Student s = new Student();
+        Student7 s = new Student7();
         s.input(12, "mahesh", 178.8);
         s.output();
 
